@@ -25,8 +25,7 @@ Deployed Application: [Lifetracker Deployed Site](https://life-tracker-carlos.su
 - [x] The detailed activity page should display a feed of all previous tracked activities.
 - [x] The detailed activity should contain a form to contain relevant information. (i.e if tracking nutrition this form allows the user to capture calories, timestamp, image, category, etc.) 
 - [x] The activity tracked should be given a unique id for easy lookup.
-  `TODO://` Add link to table schema in the link code below. Your file should end in `.sql` and show your schema for the detailed activities table. (🚫 Remove this paragraph after adding schema link)
-  * [Table Schema](fitness-tracker-schema.sql) 
+  * [Table Schema](https://github.com/CarlosEnrique7/life-tracker-be/blob/main/fitness-tracker-schema.sql) 
 
 ### Stretch Features
 
