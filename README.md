@@ -41,13 +41,12 @@ Implement any of the following features to improve the application:
 
 Register, Login, and require authentication to view pages:<br />
 Link to video: https://i.imgur.com/etd18Gb.mp4
-<br />
+<br /><br/>
 Submitting Exercise and Nutrition form and displaying all data from database to ui. Showing averages in activity page calculated using postgres AVG(): <br/>
-
 Link to video part 1: https://i.imgur.com/hke2kLk.mp4
 <br/>
 Link to video part 2: https://i.imgur.com/1temC13.mp4
-<br/>
+<br/><br/>
 Showing user info is stored seperately per user and only viewable for the account that is authenticated and logged in. Info persists for users across logins. <br/>
 
 Link to video: https://i.imgur.com/faCIyFp.mp4
