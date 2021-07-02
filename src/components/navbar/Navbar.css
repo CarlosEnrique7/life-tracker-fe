@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 3px solid #48cae4;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 9999;
+  background-color: white;
+}
+
+.logo {
+  margin: 10px 24px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 24px;
+  width: 40%;
+  font-size: 20px;
+  color: #0077b6;
+}
+
+.buttons {
+  position: absolute;
+  right: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+}
+
+.nav-links .link-name:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #0077b6;
+}
