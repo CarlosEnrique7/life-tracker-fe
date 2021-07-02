@@ -29,6 +29,8 @@ Deployed Application: [Lifetracker Deployed Site](https://life-tracker-carlos.su
 
 ### Stretch Features
 
+ - [x] Users have access to an overview Activity page that shows one summary statistic about each of the 3 types of activity tracked (i.e Total number of minutes exercised, average calories consumed, max hours of sleep in one night, etc.). These summary statistics should be created using the AVG, SUM, COUNT, MIN, MAX, functions in SQL queries and served from a dedicated API endpoint.
+Note: Summary statistics should not be calculated on the frontend.
 Implement any of the following features to improve the application:
 - [ ] Each model (`nutrition`, `exercise`, and `sleep`) should also implement a `fetchById` method that queries the database for a record by its id and only serves it to users who own that resource. Create a new dynamic route on the frontend that displays detail about a single record. For instance, `nutrition/detail/:id` should show a page with all the information about a single nutrition item.
 - [ ] Provide a dropdown that allows users to filter activity based on a certain attribute of any activity item.
