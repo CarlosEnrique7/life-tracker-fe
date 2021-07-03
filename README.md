@@ -47,12 +47,13 @@ Link to video part 1: https://i.imgur.com/hke2kLk.mp4
 <br/>
 Link to video part 2: https://i.imgur.com/1temC13.mp4
 <br/><br/>
-Showing user info is stored seperately per user and only viewable for the account that is authenticated and logged in. Info persists for users across logins. <br/>
+Showing user info is stored seperately per user and only viewable for the account that is authenticated and logged in. Middleware for authentication only lets users view resources about themselves. Info persists for users across logins. <br/>
 
 Link to video: https://i.imgur.com/faCIyFp.mp4
 <br/>
 
-Showing each activity has a unique id for easy lookup, and proper middleware that only allows users to access resources about themselves when signed in: <br/>
+Showing each activity has a unique id for easy lookup, and proper middleware that only allows users to access resources about themselves when signed in and authorized with jwt: <br/>
+
 Link to video: https://i.imgur.com/l2LNvT3.mp4
 <br />
 
