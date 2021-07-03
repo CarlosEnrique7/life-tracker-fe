@@ -52,6 +52,9 @@ Showing user info is stored seperately per user and only viewable for the accoun
 Link to video: https://i.imgur.com/faCIyFp.mp4
 <br/>
 
+Showing each activity has a unique id for easy lookup, and proper middleware that only allows users to access resources about themselves when signed in: <br/>
+Link to video: https://i.imgur.com/l2LNvT3.mp4
+<br />
 
 ### Reflection
 
